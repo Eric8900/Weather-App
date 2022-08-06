@@ -65,22 +65,4 @@ function handle() {
             console.log(err);
         })
     }
-    // else if (city.value.length > 1 && country.value.length > 0) {
-    //     fetch('https://api.openweathermap.org/data/2.5/weather?q='+
-    //     city.value+ ',' +country.value+ '&appid=1377703ca954c79494a856d692ac4e3d')
-    //     .then(response => response.json()) 
-    //     .then(data => {
-    //         var nameVal = data['name'];
-    //         var tempVal = convertFahrenheit(data['main']['temp']);
-    //         var descVal = data['weather'][0]['main'];
-    //         var countryVal = data['sys']['country'];
-
-    //         nameHTML.innerHTML = nameVal + ", " + countryVal;
-    //         temp.innerHTML = tempVal + " Degrees Fahrenheit";
-    //         desc.innerHTML = descVal;
-    //     })
-    //     .catch(err => function(err) {
-    //         console.log(err);
-    //     })
-    // }
 }
